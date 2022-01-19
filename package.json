@@ -1,0 +1,64 @@
+{
+  "name": "shopify-backend-challenge-client",
+  "version": "0.1.0",
+  "scripts": {
+    "prepare": "husky install",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint --ext .ts",
+    "lint:fix": "eslint --ext .ts --fix",
+    "prettify": "prettier 'src/**/*.{ts,html,scss}' --check",
+    "prettify:fix": "prettier 'src/**/*.{ts,html,scss}' --write",
+    "format": "npm run lint && npm run prettify",
+    "format:fix": "npm run lint:fix && npm run prettify:fix"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brarsanmol/shopify-backend-challenge.git"
+  },
+  "author": "Anmol Brar <hey@anmolbrar.ca>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brarsanmol/shopify-backend-challenge/issues"
+  },
+  "homepage": "https://github.com/brarsanmol/shopify-backend-challenge#readme",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^16.0.0",
+    "@types/node": "^12.11.1",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.9.1",
+    "@typescript-eslint/parser": "^5.9.1",
+    "commitizen": "4.2.4",
+    "cz-conventional-changelog": "3.3.0",
+    "eslint": "^8.6.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-react-app": "^7.0.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.7",
+    "prettier": "^2.5.1",
+    "tsconfig-paths": "^3.12.0",
+    "typescript": "~4.5.2"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^5.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
