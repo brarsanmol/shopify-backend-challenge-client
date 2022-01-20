@@ -12,6 +12,6 @@ RUN npm ci
 
 RUN npm run build
 
-EXPOSE 4000:80
+EXPOSE 4000
 
 CMD [ "serve", "-s", "build", "-l", "4000" ]
